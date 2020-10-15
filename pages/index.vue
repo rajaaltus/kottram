@@ -1,9 +1,16 @@
 <template>
-  <div class="container mx-auto bg-gray-400 dark:bg-gray-800">
-    <h1>Welcome</h1>
+  <div>
+    <div class="container mx-auto">
+      <Hero />
+    </div>
+    <Welcome />
+    <div id="product" class="dark:bg-gray-900 bg-gray-300 flex items-center justify-between">
+      <product-cta />
+    </div>
   </div>
 </template>
 
 <script>
+import gsap from "gsap";
 export default {};
 </script>
