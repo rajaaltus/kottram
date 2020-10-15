@@ -9,6 +9,12 @@ module.exports = {
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
       },
+      height: {
+        "screen/2": "50vh",
+        "screen/3": "calc(100vh / 3)",
+        "screen/4": "calc(100vh / 4)",
+        "screen/5": "calc(100vh / 5)",
+      },
       spacing: {
         "1/2": "50%",
         "1/3": "33.333333%",
