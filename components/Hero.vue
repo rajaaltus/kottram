@@ -1,9 +1,9 @@
 <template>
-  <div class="flex items-center justify-between py-10 my-10">
-    <div class="w-1/2">
+  <div class="sm:flex sm:items-center sm:justify-between py-10 my-10">
+    <div class="w-full mx-4 sm:w-1/2">
       <div class="hero-title font-bold text-5xl tracking-wider text-red-600 py-2">Let's fight</div>
       <div class="hero-subtitle font-semibold text-4xl tracking-wider text-red-400">Corona Virus together</div>
-      <div class="hero-subtitle text-lg dark:text-gray-500 text-gray-700 mt-5">
+      <div class="mr-4 hero-subtitle text-lg dark:text-gray-500 text-gray-700 mt-5">
         <p>Kottram Healthcare supplies various covid essentials worldwide. Our major products are Nitrile powde-free gloves, 3-PLY Face mask, N95 3M Masks and many more...</p>
       </div>
 
@@ -11,7 +11,7 @@
         See our products
       </button>
     </div>
-    <div class="hero-asset w-2/5">
+    <div class="hidden sm:block hero-asset w-2/5">
       <img src="/hero_asset.svg" alt="hero-asset" class="h-full w-full" />
     </div>
   </div>
