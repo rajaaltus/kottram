@@ -21,11 +21,11 @@
       </div>
     </div>
 
-    <div :class="isOpen ? 'block' : 'hidden'">
-      <div class="w-full mt-5">
-        <div class="block px-2 py-1 rounded text-white font-semibold hover:bg-gray-700 text-sm"><nuxt-link to="/">Home</nuxt-link></div>
-        <div class="block px-2 py-1 rounded text-white font-semibold hover:bg-gray-700 text-sm"><nuxt-link to="/products">Products</nuxt-link></div>
-        <div class="block px-2 py-1 rounded text-white font-semibold hover:bg-gray-700 text-sm"><nuxt-link to="/contact">Contact</nuxt-link></div>
+    <div :class="isOpen ? 'block' : 'hidden'" class="mobile-menu">
+      <div class="mt-5 text-center mx-auto w-full">
+        <nuxt-link class="px-2 py-2 rounded dark:bg-gray-900 dark-hover:bg-gray-700 bg-gray-200 block" to="/">Home</nuxt-link>
+        <nuxt-link class="px-2 py-2 rounded dark:bg-gray-900 dark-hover:bg-gray-700 bg-gray-200 block" to="/products">Products</nuxt-link>
+        <nuxt-link class="px-2 py-2 rounded dark:bg-gray-900 dark-hover:bg-gray-700 bg-gray-200 block" to="/contact">Contact</nuxt-link>
       </div>
     </div>
   </div>
