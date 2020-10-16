@@ -1,16 +1,6 @@
 <template>
   <!-- <img src="/logo.svg" alt="logo" class="h-16" /> -->
-  <svg viewBox="0 0 559.5 178.3" class="fill-current h-20">
-    <defs>
-      <style>
-        .cls-1 {
-          fill: #efd82e;
-        }
-        .cls-2 {
-          fill: #f94141;
-        }
-      </style>
-    </defs>
+  <svg viewBox="0 0 559.5 178.3" class="sm:h-20 h-12">
     <g id="Layer_2" data-name="Layer 2">
       <g id="Layer_1-2" data-name="Layer 1">
         <path

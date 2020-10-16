@@ -5,6 +5,7 @@ module.exports = {
   },
   dark: "class",
   theme: {
+    darkSelector: ".dark-mode",
     extend: {
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
@@ -51,8 +52,12 @@ module.exports = {
     defaultLineHeights: true,
     standardFontWeights: true,
   },
-  variants: {},
-  plugins: [],
+  variants: {
+    backgroundColor: ["dark", "dark-hover", "dark-group-hover", "dark-even", "dark-odd"],
+    borderColor: ["dark", "dark-disabled", "dark-focus", "dark-focus-within"],
+    textColor: ["dark", "dark-hover", "dark-active", "dark-placeholder"],
+  },
+  plugins: [require("tailwindcss-dark-mode")()],
   purge: {
     enabled: process.env.NODE_ENV === "production",
     layers: ["utilities"],

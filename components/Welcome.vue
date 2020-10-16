@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <p class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Quality Assured</p>
-        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-200 sm:text-4xl sm:leading-10">
+        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight dark:text-gray-200 text-gray-700 sm:text-4xl sm:leading-10">
           A better way to get large shipments
         </h3>
       </div>
@@ -21,7 +21,7 @@
               </div>
               <div class="ml-4">
                 <h4 class="text-lg leading-6 font-medium text-gray-900 dark:text-gray-300">{{ wd.title }}</h4>
-                <p class="mt-2 text-base leading-6 text-gray-500">
+                <p class="mt-2 text-base leading-6 dark:text-gray-500 text-gray-600">
                   {{ wd.description }}
                 </p>
               </div>
