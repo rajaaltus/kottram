@@ -12,7 +12,7 @@
     "@nuxt/content": "^1.9.0",
     "@nuxt/http": "^0.6.0",
     "@nuxtjs/axios": "^5.12.2",
-    "@nuxtjs/pwa": "^3.0.2",
+    "@nuxtjs/pwa": "^3.3.1",
     "core-js": "^3.6.5",
     "graphql": "^15.1.0",
     "graphql-tag": "^2.10.3",
